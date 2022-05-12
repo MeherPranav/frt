@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+<style type="text/css">
+  .jumbotron text-center {
+    background-image: url("static/image/2.jpg");
+  
+    height: 100%;
+  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+
+<body>
+
+  {% include "insurance/navbar.html" %}
+
+
+    <div class="jumbotron text-center" height="100%"   background-repeat: "no-repeat"  background-size: "100% 100%" style="background-image: url('{% static "image/3.png"%}  '); ">
+
+
+
+    <h2 class="display-4" style="color:white">Hello, Customer</h2>
+    <h2 class="lead" style="color:white">Welcome to Insurance Management System</h2>
+
+    <h2 style="color:white">You can access various features after Login.</h2>
+    <p class="lead" >
+      <a class="btn btn-primary btn-lg" href="customersignup" role="button"">Create Your Account</a>
+      <a class="btn btn-primary btn-lg" href="customerlogin" role="button" ">Login</a>
+
+    </p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+  </div>
+</body>
+
+</html>
